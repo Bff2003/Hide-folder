@@ -3,7 +3,7 @@ import getpass
 
 master_password = "YOUR_PASSWORD_HERE"
 folder_name = "Private" # Name of the folder to lock
-hidden_folder_name = "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" # Rename the folder to this
+hidden_folder_name = "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" # The script will rename the folder to this name
 
 def lock_folder():
     # Rename the folder and set system and hidden attributes
